@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "mlterm"
-version = "0.1.0"
+version = "0.1.1"
 description = "A Terminal-Based ML Experiment Tracker"
 readme = "README.md"
 requires-python = ">=3.8"
@@ -58,11 +58,11 @@ gpu = [
 mlterm = "mlterm.cli:app"
 
 [project.urls]
-Homepage = "https://github.com/mlterm/mlterm"
-Repository = "https://github.com/mlterm/mlterm"
-Documentation = "https://github.com/mlterm/mlterm#readme"
-Issues = "https://github.com/mlterm/mlterm/issues"
-Changelog = "https://github.com/mlterm/mlterm/blob/main/CHANGELOG.md"
+Homepage = "https://github.com/SunnyTamang/mlterm"
+Repository = "https://github.com/SunnyTamang/mlterm"
+Documentation = "https://github.com/SunnyTamang/mlterm#readme"
+Issues = "https://github.com/mlterm/SunnyTamang/issues"
+Changelog = "https://github.com/SunnyTamang/mlterm/blob/main/CHANGELOG.md"
 
 [tool.setuptools.packages.find]
 where = ["."]
