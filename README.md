@@ -1,4 +1,4 @@
-# mlterm 🧠
+# mlterm
 
 [![PyPI version](https://badge.fury.io/py/mlterm.svg)](https://badge.fury.io/py/mlterm)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
@@ -7,20 +7,20 @@
 
 **A Terminal-Based ML Experiment Tracker** - Monitor your machine learning experiments in real-time with a beautiful TUI dashboard.
 
-## ✨ Features
+## Features
 
-- 🖥️ **Terminal-Based Dashboard**: Beautiful TUI interface built with Textual
-- 📊 **Real-Time Monitoring**: Live updates of training metrics and system stats
-- 🔒 **Offline-First**: Works without internet connectivity
-- 🖥️ **SSH-Friendly**: Perfect for remote server training
-- 📝 **JSONL Logging**: Structured, human-readable log format
-- 🎯 **Simple Integration**: Just 4 lines of code to get started
-- 🔧 **Framework Agnostic**: Works with any ML framework (sklearn, PyTorch, TensorFlow, etc.)
-- 📈 **Rich Metrics**: Track loss, accuracy, hyperparameters, artifacts, and more
-- 💾 **Artifact Management**: Log models, data files, and other artifacts
-- 🖥️ **System Monitoring**: CPU, memory, GPU, disk, and network usage
+- **Terminal-Based Dashboard**: Beautiful TUI interface built with Textual
+- **Real-Time Monitoring**: Live updates of training metrics and system stats
+- **Offline-First**: Works without internet connectivity
+- **SSH-Friendly**: Perfect for remote server training
+- **JSONL Logging**: Structured, human-readable log format
+- **Simple Integration**: Just 4 lines of code to get started
+- **Framework Agnostic**: Works with any ML framework (sklearn, PyTorch, TensorFlow, etc.)
+- **Rich Metrics**: Track loss, accuracy, hyperparameters, artifacts, and more
+- **Artifact Management**: Log models, data files, and other artifacts
+- **System Monitoring**: CPU, memory, GPU, disk, and network usage
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Installation
 
@@ -55,7 +55,7 @@ tracker.finish("completed")
 mlterm dashboard --project my_experiment
 ```
 
-## 📖 Documentation
+## Documentation
 
 ### Core Components
 
@@ -140,7 +140,7 @@ mlterm compare --project my_project --runs run_001 run_002
 mlterm export --project my_project --format csv
 ```
 
-## 🎯 Key Features Explained
+## Key Features Explained
 
 ### Real-Time Dashboard
 
@@ -178,7 +178,7 @@ tracker.log_artifact(
 )
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 mlterm/
@@ -194,7 +194,7 @@ mlterm/
 └── README.md              # This file
 ```
 
-## 🔧 Configuration
+## Configuration
 
 ### Optional Dependencies
 
@@ -213,21 +213,21 @@ export MLTERM_LOG_DIR="/path/to/logs"
 export MLTERM_REFRESH_RATE="1.0"
 ```
 
-## 📊 Example Output
+## Example Output
 
 ### Console Output
 ```
-🚀 Starting training with mlterm tracking...
-📊 Project: my_experiment
-🆔 Run ID: run_001
-📁 Log file: logs/my_experiment_run_001.jsonl
-💡 In another terminal, run: mlterm dashboard --project my_experiment
+Starting training with mlterm tracking...
+Project: my_experiment
+Run ID: run_001
+Log file: logs/my_experiment_run_001.jsonl
+In another terminal, run: mlterm dashboard --project my_experiment
 ============================================================
 Epoch   0: Loss=2.0896, Acc=0.4901, LR=0.001000
 Epoch  10: Loss=1.5833, Acc=0.6232, LR=0.000950
 Epoch  20: Loss=1.1833, Acc=0.7527, LR=0.000902
 ...
-✅ Training completed!
+Training completed!
 ```
 
 ### Dashboard View
@@ -253,7 +253,7 @@ GPU: Not available
  learning_rate        0.0008                 15:10:16                           
 ```
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
 
@@ -274,24 +274,24 @@ pip install -e ".[dev]"
 pytest tests/
 ```
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [Textual](https://github.com/Textualize/textual) for the beautiful TUI framework
 - [Typer](https://github.com/tiangolo/typer) for the CLI interface
 - [Rich](https://github.com/Textualize/rich) for terminal formatting
 - [psutil](https://github.com/giampaolo/psutil) for system monitoring
 
-## 📞 Support
+## Support
 
 - 📖 [Documentation](https://github.com/mlterm/mlterm#readme)
 - 🐛 [Issue Tracker](https://github.com/mlterm/mlterm/issues)
 - 💬 [Discussions](https://github.com/mlterm/mlterm/discussions)
 
-## 🗺️ Roadmap
+## Roadmap
 
 - [ ] Web dashboard interface
 - [ ] Database backend support
