@@ -215,4 +215,4 @@ Contributors will be recognized in:
 - Release notes for significant contributions
 - The project's [CHANGELOG](CHANGELOG.md)
 
-Thank you for contributing to mlterm! 🎉
+Thank you for contributing to mlterm!

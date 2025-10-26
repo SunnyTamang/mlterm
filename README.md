@@ -287,9 +287,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Support
 
-- 📖 [Documentation](https://github.com/mlterm/mlterm#readme)
-- 🐛 [Issue Tracker](https://github.com/mlterm/mlterm/issues)
-- 💬 [Discussions](https://github.com/mlterm/mlterm/discussions)
+- [Documentation](https://github.com/mlterm/mlterm#readme)
+- [Issue Tracker](https://github.com/mlterm/mlterm/issues)
+- [Discussions](https://github.com/mlterm/mlterm/discussions)
 
 ## Roadmap
 
